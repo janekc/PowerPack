@@ -1999,7 +1999,7 @@
 	)
 	(text "skip buck converter, \nif ledsignal is 5v anyway, \nor if the leds need 12v"
 		(exclude_from_sim no)
-		(at 108.458 59.69 0)
+		(at 113.03 52.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2042,6 +2042,12 @@
 		(uuid "306dfbdd-5b12-494a-99c8-3bc9d61c77e5")
 	)
 	(junction
+		(at 119.38 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37af37ce-110d-4d5d-a6ff-816ad10eb176")
+	)
+	(junction
 		(at 171.45 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2070,12 +2076,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ca959ac-ea74-40da-962c-9befcfca7b32")
-	)
-	(junction
-		(at 119.38 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95124ce4-267a-43b8-8d37-90fd0a99a5c0")
 	)
 	(junction
 		(at 222.25 81.28)
@@ -2163,16 +2163,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a56f35-9396-440f-aea7-dcb3e7940ac1")
-	)
-	(wire
-		(pts
 			(xy 170.18 129.54) (xy 168.91 129.54)
 		)
 		(stroke
@@ -2190,16 +2180,6 @@
 			(type default)
 		)
 		(uuid "196f3aab-3683-4a36-887e-339d2ce618d5")
-	)
-	(wire
-		(pts
-			(xy 95.25 69.85) (xy 95.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ff1b4a-6bf1-4bf1-a7a7-56cf1b9cd736")
 	)
 	(wire
 		(pts
@@ -2233,16 +2213,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 73.66) (xy 119.38 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36e25827-e506-43f4-bb8d-c74cc934661e")
-	)
-	(wire
-		(pts
 			(xy 119.38 81.28) (xy 132.08 81.28)
 		)
 		(stroke
@@ -2263,23 +2233,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 85.09 71.12)
+			(xy 85.09 71.12) (xy 97.79 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ddb8fef-cf6c-453b-b14f-56f04487e49e")
-	)
-	(wire
-		(pts
-			(xy 97.79 69.85) (xy 97.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44943cff-93a2-4309-a27a-22e695893d52")
 	)
 	(wire
 		(pts
@@ -2363,6 +2323,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 73.66) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83843f2d-59e4-4707-8dd8-dd34a282edb9")
+	)
+	(wire
+		(pts
 			(xy 204.47 74.93) (xy 204.47 81.28)
 		)
 		(stroke
@@ -2440,6 +2410,16 @@
 			(type default)
 		)
 		(uuid "ac101bc1-1c17-4fee-af71-da7e652201b3")
+	)
+	(wire
+		(pts
+			(xy 95.25 69.85) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebfed8a-25b1-44f4-9600-a7b744a1f422")
 	)
 	(wire
 		(pts
@@ -2580,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "f621b4d4-ce9e-4dce-9a8d-d51393b76814")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 97.79 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4d0bfb-66ca-43aa-8820-fa5632073904")
 	)
 	(wire
 		(pts
@@ -2795,7 +2785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.262 87.63 90)
 			(effects
 				(font
@@ -2931,7 +2921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 235.9152 72.39 0)
 			(effects
 				(font
@@ -3081,7 +3071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 120.3452 81.28 0)
 			(effects
 				(font
@@ -3217,7 +3207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.2152 72.39 0)
 			(effects
 				(font
@@ -3487,7 +3477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.5752 64.77 0)
 			(effects
 				(font
@@ -4128,7 +4118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 133.0452 81.28 0)
 			(effects
 				(font
@@ -4239,7 +4229,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 104.14 69.85 270)
+		(at 100.33 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4248,7 +4238,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e898f2d-bee1-4281-85ad-87a4633534ad")
 		(property "Reference" "#PWR012"
-			(at 100.33 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4247,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 107.95 69.8499 90)
+			(at 104.14 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 69.85 0)
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 69.85 0)
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 104.14 69.85 0)
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.262 77.47 90)
 			(effects
 				(font
@@ -4467,7 +4457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 145.7452 81.28 0)
 			(effects
 				(font
@@ -4586,7 +4576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc785f46-bade-422e-a488-aa804e98ecc4")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 207.01 69.8499 0)
 			(effects
 				(font
@@ -4604,7 +4594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 202.692 71.12 90)
 			(effects
 				(font
@@ -4640,7 +4630,7 @@
 		(instances
 			(project "ledConnect"
 				(path "/98174448-9966-40ca-80fa-f976aec9577e"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed426775-9381-49f7-b86c-c428f06213e3")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt1"
 			(at 207.01 59.6899 0)
 			(effects
 				(font
@@ -4875,7 +4865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 202.692 60.96 90)
 			(effects
 				(font
@@ -4911,7 +4901,7 @@
 		(instances
 			(project ""
 				(path "/98174448-9966-40ca-80fa-f976aec9577e"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
