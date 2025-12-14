@@ -2471,28 +2471,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:WJ15EDGRC-3.81-4P"
+		(symbol "easyeda2kicad:WJ15EDGVC-3.81-4P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "CN"
-				(at 0 8.89 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "WJ15EDGRC-3.81-4P"
-				(at 0 -8.89 0)
+			(property "Value" "WJ15EDGVC-3.81-4P"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_WJ15EDGRC-3.81-4P"
-				(at 0 -11.43 0)
+			(property "Footprint" "easyeda2kicad:CONN-TH_4P-P3.81_WJ2EDGVC-3.81-4P"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2500,8 +2500,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/15EDG-Connectors_WJ15EDGRC-3-81-4P_C7245.html"
-				(at 0 -13.97 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/15EDG-Connectors_WJ15EDGVC-3-81-4P_C8410.html"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2518,8 +2518,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C7245"
-				(at 0 -16.51 0)
+			(property "LCSC Part" "C8410"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2527,10 +2527,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "WJ15EDGRC-3.81-4P_0_1"
+			(symbol "WJ15EDGVC-3.81-4P_0_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 4.57 -6.86)
+					(start -2.54 7.62)
+					(end 3.3 -5.59)
 					(stroke
 						(width 0)
 						(type default)
@@ -2540,7 +2540,7 @@
 					)
 				)
 				(circle
-					(center -0.51 5.59)
+					(center -1.78 6.86)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -2551,7 +2551,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 3.81 0)
+					(at -5.08 5.08 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -2569,7 +2569,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 1.27 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2587,7 +2587,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 -1.27 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -2605,7 +2605,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -3.81 -3.81 0)
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -8586,91 +8586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:WJ15EDGRC-3.81-4P")
-		(at 288.29 135.89 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3053c392-163c-4ef3-a4ca-c6b922e439bb")
-		(property "Reference" "CN3"
-			(at 294.64 136.9051 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WJ15EDGRC-3.81-4P"
-			(at 294.64 134.3651 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_WJ15EDGRC-3.81-4P"
-			(at 288.29 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/15EDG-Connectors_WJ15EDGRC-3-81-4P_C7245.html"
-			(at 288.29 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 288.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7245"
-			(at 288.29 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06e97219-4850-46a3-bfde-0485e6344199")
-		)
-		(pin "2"
-			(uuid "5975d507-f924-4cdf-9316-415295d84f63")
-		)
-		(pin "3"
-			(uuid "54ca9dda-e535-474e-8e1b-72fbcd22b39d")
-		)
-		(pin "4"
-			(uuid "1c630c9c-93e3-4d62-8510-722962952198")
-		)
-		(instances
-			(project "balancingboardbyd"
-				(path "/ad801e52-4300-4542-ba97-19e7ee181034"
-					(reference "CN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:BH-18650-B1BA007")
 		(at 331.47 60.96 0)
 		(unit 1)
@@ -11795,6 +11710,91 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:WJ15EDGVC-3.81-4P")
+		(at 289.56 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3fc93c7-e7c9-4a26-abab-801046646b3a")
+		(property "Reference" "CN4"
+			(at 294.64 122.9351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WJ15EDGVC-3.81-4P"
+			(at 294.64 120.3951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_4P-P3.81_WJ2EDGVC-3.81-4P"
+			(at 289.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/15EDG-Connectors_WJ15EDGVC-3-81-4P_C8410.html"
+			(at 289.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C8410"
+			(at 289.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf5166fa-d92f-4200-985e-0a79e24666b2")
+		)
+		(pin "3"
+			(uuid "764c4b33-b308-4878-9a72-1e910b228e99")
+		)
+		(pin "4"
+			(uuid "8c655daf-226e-4521-b08c-8e29487e04e4")
+		)
+		(pin "2"
+			(uuid "5c7070c2-c8b3-4da9-a68b-e00956e4b4b4")
+		)
+		(instances
+			(project ""
+				(path "/ad801e52-4300-4542-ba97-19e7ee181034"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 105.41 130.81 90)
 		(unit 1)
@@ -11856,91 +11856,6 @@
 			(project "balancingboardbyd"
 				(path "/ad801e52-4300-4542-ba97-19e7ee181034"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:WJ15EDGRC-3.81-4P")
-		(at 288.29 121.92 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b93d022a-34ff-44d4-a286-72ceb12fbc71")
-		(property "Reference" "CN2"
-			(at 294.64 122.9351 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WJ15EDGRC-3.81-4P"
-			(at 294.64 120.3951 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_WJ15EDGRC-3.81-4P"
-			(at 288.29 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/15EDG-Connectors_WJ15EDGRC-3-81-4P_C7245.html"
-			(at 288.29 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 288.29 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7245"
-			(at 288.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6676324d-d942-4ad8-a0fe-d27ce59fd291")
-		)
-		(pin "2"
-			(uuid "648dc299-0fa4-48de-8324-f60bb29c129b")
-		)
-		(pin "3"
-			(uuid "d98f99dd-9ad1-4bd3-91ff-fedd87bef349")
-		)
-		(pin "4"
-			(uuid "aaef857a-183f-4650-829f-a78372260ed1")
-		)
-		(instances
-			(project ""
-				(path "/ad801e52-4300-4542-ba97-19e7ee181034"
-					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -13392,6 +13307,91 @@
 			(project "balancingboardbyd"
 				(path "/ad801e52-4300-4542-ba97-19e7ee181034"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:WJ15EDGVC-3.81-4P")
+		(at 289.56 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0d8db17-8a9d-41a3-a444-3236f4b32643")
+		(property "Reference" "CN5"
+			(at 294.64 136.9051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WJ15EDGVC-3.81-4P"
+			(at 294.64 134.3651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-TH_4P-P3.81_WJ2EDGVC-3.81-4P"
+			(at 289.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/15EDG-Connectors_WJ15EDGVC-3-81-4P_C8410.html"
+			(at 289.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C8410"
+			(at 289.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe650386-429f-4681-94c8-dd9d64d6a707")
+		)
+		(pin "3"
+			(uuid "f0839ec6-149c-4e4b-9d82-ed4dd99cc425")
+		)
+		(pin "4"
+			(uuid "77b8fdb0-89e3-4d2c-8bbd-6831af27c2b1")
+		)
+		(pin "2"
+			(uuid "5b313825-9da5-41f1-a8f8-5f6dfa77cfb1")
+		)
+		(instances
+			(project "balancingboardbyd"
+				(path "/ad801e52-4300-4542-ba97-19e7ee181034"
+					(reference "CN5")
 					(unit 1)
 				)
 			)
