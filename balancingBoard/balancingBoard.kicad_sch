@@ -8689,7 +8689,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10M"
 			(at 168.91 49.53 90)
 			(effects
 				(font
