@@ -2044,6 +2044,26 @@
 		)
 		(uuid "136db8d0-1dff-4d5f-bd64-486eb48caf51")
 	)
+	(text "Rfbb1\n12V version: 9.09k\n5V version: 24.9k"
+		(exclude_from_sim no)
+		(at 244.856 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49b50c21-5e30-4970-b6d7-757cd6352ab7")
+	)
+	(text "L1\n12V version: 15uH\n5V version: 3.3uH"
+		(exclude_from_sim no)
+		(at 219.964 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7495a74f-6f90-4455-92e3-4520b3c033c7")
+	)
 	(text "reverse polarity protection"
 		(exclude_from_sim no)
 		(at 77.978 57.404 0)
@@ -3688,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Value" "LM61480RPHR"
+		(property "Value" "LM61495RPHR"
 			(at 185.42 51.816 0)
 			(effects
 				(font
