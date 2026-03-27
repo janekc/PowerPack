@@ -2437,6 +2437,16 @@
 		)
 		(uuid "ff8d8778-6a57-49a6-8bbd-f3d5d6203073")
 	)
+	(label "VIN2"
+		(at 115.57 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80c6a86b-f702-4a44-9925-17420fa0e2b0")
+	)
 	(global_label "CBOOT"
 		(shape input)
 		(at 222.25 81.28 180)
@@ -3913,7 +3923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
 			(at 120.65 127 0)
 			(hide yes)
 			(show_name no)
@@ -4068,7 +4078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
 			(at 120.65 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4787,7 +4797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D3.0mm"
 			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
