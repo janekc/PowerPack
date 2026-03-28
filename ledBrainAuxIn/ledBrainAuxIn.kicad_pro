@@ -196,7 +196,6 @@
       "track_widths": [
         0.0,
         0.2,
-        0.3,
         0.6,
         0.8,
         1.2
@@ -231,14 +230,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -499,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ledBrain.kicad_pro",
+    "filename": "ledBrainAuxIn.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -666,12 +657,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ledBrain.kicad_sch",
-        "name": "ledBrain",
+        "filename": "ledBrainAuxIn.kicad_sch",
+        "name": "ledBrainAuxIn",
         "uuid": "bc40478d-6be8-4bd8-9e2c-1b79fb7d568e"
       }
     ],
-    "used_designators": "#PWR68-69,#PWR223-224,D3,C7-8,JP1,U2,Cout1,Cin1,Cboot1",
+    "used_designators": "Cout1,Cin1,Cboot1",
     "variants": []
   },
   "sheets": [
