@@ -499,7 +499,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "QuinledPoEHat.kicad_pro",
+    "filename": "ledBrainConnecor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -666,18 +666,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "QuinledPoEHat.kicad_sch",
-        "name": "QuinledPoEHat",
+        "filename": "ledBrainConnecor.kicad_sch",
+        "name": "ledBrainConnecor",
         "uuid": "bc40478d-6be8-4bd8-9e2c-1b79fb7d568e"
       }
     ],
-    "used_designators": "#PWR30,#PWR39-40",
+    "used_designators": "H1-3,#PWR1-4,U1-4",
     "variants": []
   },
   "sheets": [
     [
       "bc40478d-6be8-4bd8-9e2c-1b79fb7d568e",
-      "QuinledPoEHat"
+      "ledBrainConnecor"
     ]
   ],
   "text_variables": {},

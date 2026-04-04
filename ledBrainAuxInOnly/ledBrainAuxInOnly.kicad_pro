@@ -195,11 +195,13 @@
       ],
       "track_widths": [
         0.0,
+        0.175,
         0.2,
         0.3,
         0.6,
         0.8,
-        1.2
+        1.2,
+        1.75
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -235,10 +237,6 @@
         {
           "diameter": 0.6,
           "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -499,7 +497,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "QuinledPoEHat.kicad_pro",
+    "filename": "ledBrainAuxInOnly.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -666,18 +664,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "QuinledPoEHat.kicad_sch",
-        "name": "QuinledPoEHat",
+        "filename": "ledBrainAuxInOnly.kicad_sch",
+        "name": "ledBrainAuxInOnly",
         "uuid": "bc40478d-6be8-4bd8-9e2c-1b79fb7d568e"
       }
     ],
-    "used_designators": "#PWR30,#PWR39-40",
+    "used_designators": "JP1,JP3,#PWR1-3,#PWR37-38,#PWR57",
     "variants": []
   },
   "sheets": [
     [
       "bc40478d-6be8-4bd8-9e2c-1b79fb7d568e",
-      "QuinledPoEHat"
+      "ledBrainAuxInOnly"
     ]
   ],
   "text_variables": {},
